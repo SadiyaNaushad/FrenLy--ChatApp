@@ -40,7 +40,7 @@ const Homepage = () => {
           fontWeight={"bold"}
           textAlign="center"
         >
-          QUICKCHAT
+          FrenLy
         </Text>
       </Box>
       <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px">

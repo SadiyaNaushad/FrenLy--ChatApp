@@ -101,7 +101,7 @@ const Signup = () => {
     if (pics.type === "image/jpeg" || pics.type === "image/png") {
       const data = new FormData();
       data.append("file", pics);
-      data.append("upload_preset", "QuickChat");
+      data.append("upload_preset", "FrenLy");
       data.append("cloud_name", "dtdq9ist1");
       fetch("https://api.cloudinary.com/v1_1/dtdq9ist1/image/upload", {
         method: "post",
